@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://imgs.search.brave.com/Jt1-OC0EwuN076TqJwG5l5x_Fu4iKil2_hgLcqfnzjY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMjA3/NzE4MDY1NS9waG90/by9iYWNrZ3JvdW5k/LWZsb29yLXNoYWRv/dy13YWxsLWtpdGNo/ZW4tY29uY3JldGUt/d2hpdGUtdGV4dHVy/ZS1saWdodC10ZXh0/dXJlLWFic3RyYWN0/LW1vY2t1cC53ZWJw/P2I9MSZzPTE3MDY2/N2Emdz0wJms9MjAm/Yz1nbWFCZml1a2pV/Mks3TDgzempaOVVf/TmhKX0VocnpHVWRQ/VEZOc2gyQk5JPQ');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+   
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1em;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#addBtn {
+    background-color: #6477d6;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 400px;
+    margin: 0;
+}
+
+li {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap; 
+    position: relative; 
+}
+
+button:nth-child(4) {
+    background-color: rgb(151, 25, 25);
+    color: white;
+}
+
+button:nth-child(3) {
+    background-color: #1f872c;
+    color: white;
+}
+
+span {
+    flex-grow: 1;
+    margin: 0 10px;
+    text-align: left;
+    overflow: hidden; /* Prevent overflow */
+    white-space: nowrap; /* Prevent text wrapping */
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+}
+li input[type="text"] {
+    width: 100%; /* Fill available space */
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
